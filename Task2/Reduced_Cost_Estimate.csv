@@ -1,0 +1,25 @@
+Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,6457.2,77486.4,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),Route 53,Amazon Route 53,0,111.5,1338,USD,,"Hosted Zones (1000), Additional Records in Hosted Zones (1000)"
+My Estimate,US East (N. Virginia),S3,S3 Standard,0,230,2760,USD,,S3 Standard storage (10000 GB per month)
+My Estimate,US East (N. Virginia),S3,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),VPC,VPN Connection,0,617,7404,USD,,"Working days per month (22), Number of Site-to-Site VPN Connections (2), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,77.85,934.2,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),VPC,Data Transfer,0,0,0,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Application Load Balancer,Application Load Balancer,0,371.57,4458.84,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),EC2,Amazon EC2 ,0,784.896,9418.75,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t4g.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,Amazon Elastic IP,0,21.9,262.8,USD,,"Number of EC2 instances (2), Number of EIPs per instance (2)"
+My Estimate,US East (N. Virginia),RDS,Amazon RDS for MySQL,0,4242.48,50909.76,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (9000 GB), Quantity (1), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+Note: With buget 6k5 so i did: decrease RDS storage but the system still run smootly.,,,,,,,,,
